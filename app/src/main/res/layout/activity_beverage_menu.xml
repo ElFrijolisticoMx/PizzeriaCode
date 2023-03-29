@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- RadioGroup para las opciones de bebida -->
+    <RadioGroup
+        android:id="@+id/beverageRadioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <!-- Opción de bebida 1 -->
+        <RadioButton
+            android:id="@+id/beverageOption1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bebida 1"/>
+
+        <!-- Opción de bebida 2 -->
+        <RadioButton
+            android:id="@+id/beverageOption2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bebida 2"/>
+
+        <!-- Opción de bebida 3 -->
+        <RadioButton
+            android:id="@+id/beverageOption3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bebida 3"/>
+
+        <Button
+            android:id="@+id/finalizeOrderButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Finalizar pedido" />
+
+    </RadioGroup>
+
+    <!-- Botón para finalizar el pedido -->
+
+    <!-- Botón para ir al menú de pizzas -->
+
+    <Button
+        android:id="@+id/pizzasButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/finalizeOrderButton"
+        android:layout_marginTop="231dp"
+        android:text="Ir al menú de pizzas" />
+
+</RelativeLayout>

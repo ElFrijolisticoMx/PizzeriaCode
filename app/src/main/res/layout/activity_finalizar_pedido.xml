@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- TextView para mostrar el nombre del usuario -->
+    <TextView
+        android:id="@+id/usuarioTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:text="Nombre del usuario"/>
+
+
+
+    <!-- TextView para mostrar la pizza seleccionada -->
+    <TextView
+        android:id="@+id/pizzaSeleccionadaTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:layout_below="@id/usuarioTextView"
+        android:text="Pizza seleccionada"/>
+
+    <!-- TextView para mostrar la bebida seleccionada -->
+    <TextView
+        android:id="@+id/bebidaSeleccionadaTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:layout_below="@id/pizzaSeleccionadaTextView"
+        android:text="Bebida seleccionada"/>
+
+    <!-- TextView para mostrar el total del pedido -->
+    <TextView
+        android:id="@+id/totalTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_green_dark"
+        android:layout_below="@id/bebidaSeleccionadaTextView"
+        android:text="Total del pedido"/>
+
+</RelativeLayout>

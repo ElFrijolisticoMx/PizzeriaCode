@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="usernameEditText" type="id" />
+    <item name="passwordEditText" type="id" />
+    <item name="loginButton" type="id" />
+    <item name="greetingTextView" type="id" />
+    <item name="pizzasButton" type="id" />
+    <item name="beveragesButton" type="id" />
+    <item name="finalizeOrderButton" type="id" />
+    <item name="pizzaRadioGroup" type="id" />
+    <item name="pepperoniRadioButton" type="id" />
+    <item name="hawaiianRadioButton" type="id" />
+    <item name="mexicanRadioButton" type="id" />
+    <item name="beverageRadioGroup" type="id" />
+    <item name="cocaColaRadioButton" type="id" />
+    <item name="fantaRadioButton" type="id" />
+    <item name="pepsiRadioButton" type="id" />
+    <item name="btn_finalizar_pedido_bebidas" type="id" />
+    <item name="btn_pizzas_bebidas" type="id" />
+    <item name="rb_cocacola" type="id" />
+    <item name="rb_fanta" type="id" />
+    <item name="rb_pepsi" type="id" />
+    <item name="tv_mensaje_pedido" type="id" />
+    <item name="btn_enviar_pedido" type="id" />
+</resources>
